@@ -1,0 +1,27 @@
+<template>
+    <div if:false={rendering}>
+        <h2 class="slds-text-heading_small slds-text-align_center"> Select an account to show related contacts </h2>
+
+    </div>
+
+    <div if:true={rendering}>
+        <div class="slds-grid">
+            <p class="slds-text-heading_large slds-text-align_center slds-col subtitle">{account.Name} Contacts List.
+            </p>
+            <button class="slds-button slds-button_destructive slds-col" onclick={handleButtonCloseClick}>Close
+                X</button>
+        </div>
+
+
+        <div if:false={contacts}>
+            <lightning-spinner alternative-text="Loading"></lightning-spinner>
+        </div>
+
+        <template if:true={contacts}>
+            <lightning-datatable key-field="Id" data={contacts} columns={columns} hide-checkbox-column
+                onrowaction={navigateNext}>
+            </lightning-datatable>
+        </template>
+
+    </div>
+</template>

@@ -1,0 +1,18 @@
+<template>
+    <h1 class="slds-text-heading_large slds-box slds-text-align_center">Active Accounts List.</h1>
+    <template if:false={accounts}>
+        <lightning-spinner alternative-text="Loading"></lightning-spinner>
+    </template>
+    <template if:true={accounts}></template>
+    <lightning-datatable key-field="id" data={accounts} columns={cols} onrowaction={handleRowAction}
+        hide-checkbox-column>
+    </lightning-datatable>
+    <div data-id="contactsDiv">
+        <c-contacts-render></c-contacts-render>
+    </div>
+
+
+
+
+
+</template>
