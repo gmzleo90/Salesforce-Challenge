@@ -1,5 +1,5 @@
 # Salesforce Challenge
-Hi!, welcome, this is a challenge for salesforce begginers, here you will find my skills to develop LWC, Apex classes, and comunication between LWC components, in this case, parent to child events comunication.
+Hi, welcome, this is a Salesforce beginner challenge, here you will find my skills in developing LWC, Apex classes and communication between LWC components, in this case parent-child event communication.
 
 *1 I created an app that names Salesforce Challenge whit challenge tab. 
 
