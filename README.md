@@ -1,18 +1,9 @@
-# Salesforce DX Project: Next Steps
+# Salesforce Challenge
+Hi!, welcome, this is a challenge for salesforce begginers, here you will find my skills to develop LWC, Apex classes, and comunication between LWC components, in this case, parent to child events comunication.
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+*1 I created an app that names Salesforce Challenge whit challenge tab. 
 
-## How Do You Plan to Deploy Your Changes?
-
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
-
-## Configure Your Salesforce DX Project
-
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
-
-## Read All About It
-
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+*2 When the component is rendered in this app, all active accounts will be displayed. 
+*3 Click on an account to display the entire list of related contacts.
+*4 Click the edit button to edit any contact.
+*5 When any contact is edited, the system sends you an email informing you that one or more contacts have been modified.
