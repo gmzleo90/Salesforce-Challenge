@@ -1,7 +1,7 @@
 # Salesforce Challenge
 Hi, welcome, this is a Salesforce beginner challenge, here you will find my skills in developing LWC, Apex classes and communication between LWC components, in this case parent-child event communication.
 
-*1 I created an app that names Salesforce Challenge with a tab named Challenge. 
+*1 I created an app named Salesforce Challenge with a tab named Challenge.
 
 *2 When the component is rendered in this app, all active accounts will be displayed. 
 
