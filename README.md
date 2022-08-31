@@ -9,4 +9,4 @@ Hi, welcome, this is a Salesforce beginner challenge, here you will find my skil
 
 *4 Click the edit button to edit any contact.
 
-*5 When any contact is edited, the system sends you an email informing you that one or more contacts have been modified.
+*5 When any contact is edited, the system sends you a triggered email, from Apex code, informing you that one or more contacts have been modified.
